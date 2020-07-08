@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D4B693424B60DDB00D3E83A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8225B543227C308900E4DB51 /* CocoaAsyncSocket.framework */; };
-		3D4B693724B60DDD00D3E83A /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC871DF23A4214000F69AE8 /* Starscream.framework */; };
-		3D4B693A24B60F5900D3E83A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B693924B60F5900D3E83A /* CocoaAsyncSocket.framework */; };
-		3D4B693B24B60F5900D3E83A /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B693924B60F5900D3E83A /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3D4B693D24B60F5C00D3E83A /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B693C24B60F5C00D3E83A /* Starscream.framework */; };
-		3D4B693E24B60F5C00D3E83A /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B693C24B60F5C00D3E83A /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D4B695724B63A6E00D3E83A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B695624B63A6E00D3E83A /* CocoaAsyncSocket.framework */; };
+		3D4B695824B63A6F00D3E83A /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B695624B63A6E00D3E83A /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D4B695B24B63A7400D3E83A /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B695A24B63A7400D3E83A /* Starscream.framework */; };
+		3D4B695C24B63A7400D3E83A /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4B695A24B63A7400D3E83A /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6E6C1F1C23C522430002B8D9 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EC871DF23A4214000F69AE8 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6E6C1F1D23C522430002B8D9 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8225B543227C308900E4DB51 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6EC871E323A421A200F69AE8 /* CocoaMQTTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC871E223A421A200F69AE8 /* CocoaMQTTSocket.swift */; };
@@ -59,14 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3D4B693624B60DDB00D3E83A /* Embed Frameworks */ = {
+		3D4B695924B63A6F00D3E83A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3D4B693B24B60F5900D3E83A /* CocoaAsyncSocket.framework in Embed Frameworks */,
-				3D4B693E24B60F5C00D3E83A /* Starscream.framework in Embed Frameworks */,
+				3D4B695824B63A6F00D3E83A /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				3D4B695C24B63A7400D3E83A /* Starscream.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,8 +90,8 @@
 		0409977A1C1B1529006B5A6D /* CocoaMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTT.swift; sourceTree = "<group>"; };
 		0409977B1C1B1529006B5A6D /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		0409977C1C1B1529006B5A6D /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTTMessage.swift; sourceTree = "<group>"; };
-		3D4B693924B60F5900D3E83A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		3D4B693C24B60F5C00D3E83A /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		3D4B695624B63A6E00D3E83A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		3D4B695A24B63A7400D3E83A /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		6EC871DF23A4214000F69AE8 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = "<group>"; };
 		6EC871E223A421A200F69AE8 /* CocoaMQTTSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaMQTTSocket.swift; sourceTree = "<group>"; };
 		6EC871E423A421DE00F69AE8 /* CocoaMQTTWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaMQTTWebSocket.swift; sourceTree = "<group>"; };
@@ -131,10 +129,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4B693A24B60F5900D3E83A /* CocoaAsyncSocket.framework in Frameworks */,
-				3D4B693D24B60F5C00D3E83A /* Starscream.framework in Frameworks */,
-				3D4B693424B60DDB00D3E83A /* CocoaAsyncSocket.framework in Frameworks */,
-				3D4B693724B60DDD00D3E83A /* Starscream.framework in Frameworks */,
+				3D4B695724B63A6E00D3E83A /* CocoaAsyncSocket.framework in Frameworks */,
+				3D4B695B24B63A7400D3E83A /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +245,8 @@
 		C68B087463924483F8568675 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D4B693C24B60F5C00D3E83A /* Starscream.framework */,
-				3D4B693924B60F5900D3E83A /* CocoaAsyncSocket.framework */,
+				3D4B695A24B63A7400D3E83A /* Starscream.framework */,
+				3D4B695624B63A6E00D3E83A /* CocoaAsyncSocket.framework */,
 				6EC871DF23A4214000F69AE8 /* Starscream.framework */,
 				8225B543227C308900E4DB51 /* CocoaAsyncSocket.framework */,
 			);
@@ -280,8 +276,8 @@
 				8225B52F227C2E8700E4DB51 /* Frameworks */,
 				8225B530227C2E8700E4DB51 /* Resources */,
 				8D6C0E28239E90AB003094E9 /* ShellScript */,
-				3D4B693624B60DDB00D3E83A /* Embed Frameworks */,
 				3D4B693F24B6100B00D3E83A /* ShellScript */,
+				3D4B695924B63A6F00D3E83A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -641,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.emqx.CocoaMQTT;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "$(inherited)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,7 +672,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.emqx.CocoaMQTT;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "$(inherited)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 10.0;
